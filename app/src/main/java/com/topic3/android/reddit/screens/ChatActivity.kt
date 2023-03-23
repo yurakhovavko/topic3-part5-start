@@ -20,9 +20,9 @@ class ChatActivity : AppCompatActivity() {
             finish()
         }
 
-//        binding.button.setOnClickListener {
-//            showToast()
-//        }
+        binding.button.setOnClickListener {
+            showToast()
+        }
     }
 
     private fun showToast() {
